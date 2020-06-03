@@ -1,6 +1,6 @@
 var host='website.soluboxes.com';
 var user="fer";
-var pass="ks2106"
+var pass="****"
 var database="4tgs";
 
 
