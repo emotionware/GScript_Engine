@@ -5,7 +5,12 @@ var database="4tgs";
 
 
 function doGet() {
-return HtmlService.createHtmlOutputFromFile('login');
+return HtmlService.createHtmlOutputFromFile('pages/login');
 }
+
+function include(filename) {
+  return HtmlService.createHtmlOutputFromFile(filename).getContent();
+};
+
 
 //find build table tblsysbuild
