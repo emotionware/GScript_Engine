@@ -4,10 +4,8 @@ var pass="****"
 var database="4tgs";
 
 
-function doGet(){
-
-
-
+function doGet() {
+return HtmlService.createHtmlOutputFromFile('login');
 }
 
 //find build table tblsysbuild
