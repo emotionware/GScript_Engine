@@ -4,4 +4,10 @@ var pass="ks2106"
 var database="4tgs";
 
 
+function doGet(){
+
+
+
+}
+
 //find build table tblsysbuild
